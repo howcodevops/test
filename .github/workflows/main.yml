@@ -13,6 +13,6 @@ jobs:
         uses: robinraju/release-downloader@v1
         with:
           repository: '2dust/v2rayN'
-          tag: 'v7.20.4'
+          tag: '7.20.4'
           fileName: 'v2rayN-windows-64-desktop.zip'
 
