@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repo
         uses: robinraju/release-downloader@v1
         with:
-          repository: 'https://github.com/2dust/v2rayN'
+          repository: '2dust/v2rayN'
           tag: 'v7.20.4'
           fileName: 'v2rayN-windows-64-desktop.zip'
 
