@@ -15,4 +15,10 @@ jobs:
           repository: '2dust/v2rayN'
           tag: '7.20.4'
           fileName: 'v2rayN-windows-64-desktop.zip'
+      - name: Upload Gitleaks Report
+        if: always()   # ensures report uploads even if leaks are found
+        uses: actions/upload-artifact@v4
+        with:
+          name: git
+          path: git/
 
