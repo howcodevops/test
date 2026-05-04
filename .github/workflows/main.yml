@@ -17,7 +17,7 @@ jobs:
           fileName: 'v2rayN-windows-64-desktop.zip'
       - name: Upload
         if: always()  
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: v2rayN-windows-64-desktop
           path: v2rayN-windows-64-desktop.zip
